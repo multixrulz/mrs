@@ -258,7 +258,7 @@ color: black;
 font-weight: bold;
 background-color: #efefef;
 margin: 0.2vmin 0 0.2vmin 0;
-border: solid #4f4f4f 0.4vmin;
+border: solid #009BFC 0.4vmin;
 border-radius: 0.4vmin;
 padding: 0.5em 0.5em;
 font-size: 190%;
@@ -266,8 +266,7 @@ text-align: left;
 }
 
 #activitylist label img {
-max-height: 1em;
-max-width: 1em;
+height: 1.7em;
 vertical-align: middle;
 }
 
