@@ -18,12 +18,12 @@ class detTerm {
 
     contains(date) {
         // Returns true if the given date falls within this term.
-        return (date >= this.firstday) && (date <= this.lastday);
+        return (date >= this.firststudentday) && (date <= this.lastday);
     }
 
     holidaycontains(date) {
-        // Returns true if the given date falls within this term.
-        return (date >= this.firstdayhols) && (date <= this.lastday);
+        // Returns true if the given date falls within the holiday prior to this term.
+        return (date >= this.firstdayhols) && (date < this.firststudentday);
     }
 
     week(date) {
@@ -79,9 +79,16 @@ class detTerm {
 function todays_url(){
     var url = "";
 
+    today = new Date(Date.now());
+    // If it's Saturday or Sunday, go ahead to Monday
+    day_of_week = today.getDay;
+    if (day_of_week == 6) // Saturday
+        today = today + 2;
+    if (day_of_week == 0) // Sunday
+        today = today + 1;
+    
     // See if we're in a term, and create the URL
     for (t in terms) {
-        today = new Date(Date.now());
         // Is this day in an actual term?
         if (terms[t].contains(today)) {
             url = "/" +
