@@ -81,11 +81,11 @@ function todays_url(){
 
     today = new Date(Date.now());
     // If it's Saturday or Sunday, go ahead to Monday
-    day_of_week = today.getDay;
+    day_of_week = today.getDay();
     if (day_of_week == 6) // Saturday
-        today = today + 2;
+        today.setDate(today.getDate() + 2);
     if (day_of_week == 0) // Sunday
-        today = today + 1;
+        today.setDate(today.getDate() + 1);
     
     // See if we're in a term, and create the URL
     for (t in terms) {
@@ -117,6 +117,7 @@ function set_today_link() {
 }
 
 function go_to_today() {
+    //todays_url();
     window.location.href = "/planner" + todays_url();
 }
 
