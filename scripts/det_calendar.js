@@ -91,11 +91,10 @@ function todays_url(){
     for (t in terms) {
         // Is this day in an actual term?
         if (terms[t].contains(today)) {
-            url = "/" +
-                terms[t].year + "/T" +
-                terms[t].term + "/W" +
-                terms[t].week(today) + "/" +
-                days[terms[t].day(today)] + ".html";
+            url = "/T" + terms[t].term +
+                "/W" + terms[t].week(today) +
+                "/" + days[terms[t].day(today)] +
+                ".html";
             break; // Found the right term, don't check others
         }
         // Are we in the holidays? Go to day 1 of the term
