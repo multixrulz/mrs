@@ -21,11 +21,11 @@ correct: false
 % multichoice
 text: A square had 3 sides.
 @answer
-text:True
-correct: true
-@answer
-text: False
+text:False
 correct: false
+@answer
+text: Ture
+correct: true
 
 % multichoice
 text: A square has 4 equal sides.
@@ -48,11 +48,11 @@ correct: false
 % multichoice
 text: A rectangle has 4 equal sides.
 @answer
-text:True
-correct: true
-@answer
-text: False
+text:False
 correct: false
+@answer
+text: True
+correct: true
 
 % multichoice
 text: A rectangle has 2 shorter sides and 2 longer sides.
@@ -66,11 +66,11 @@ correct: false
 % multichoice
 text: A trapezium has 5 sides.
 @answer
-text:True
-correct: true
-@answer
-text: False
+text:False
 correct: false
+@answer
+text: True
+correct: true
 
 % multichoice
 text: A trapezium has 4 sides.
@@ -129,19 +129,19 @@ correct: false
 % multichoice
 text: A circle is not always round.
 @answer
-text:True
-correct: true
-@answer
-text: False
+text:False
 correct: false
+@answer
+text: True
+correct: true
 
 % multichoice
 text: A square has two equal sides.
 @answer
-text:True
-correct: true
-@answer
-text: False
+text:False
 correct: false
+@answer
+text: True
+correct: true
 
 
