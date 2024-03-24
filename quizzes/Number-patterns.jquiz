@@ -14,6 +14,7 @@ correct: false
 text: 10
 correct: false
 
+% multichoice
 text: What number comes next in 0, 1, 2, ___?
 @answer
 text: 3
@@ -28,6 +29,7 @@ correct: false
 text: 6
 correct: false
 
+% multichoice
 text: What number comes next in 1, 3, 5, ___?
 @answer
 text: 7
@@ -42,6 +44,7 @@ correct: false
 text: 13
 correct: false
 
+% multichoice
 text: What number comes next in 5, 10, 15, ___?
 @answer
 text: 20
@@ -56,6 +59,7 @@ correct: false
 text: 30
 correct: false
 
+% multichoice
 text: What number comes next in 10, 20, 30, ___?
 @answer
 text: 40
@@ -70,6 +74,7 @@ correct: false
 text: 70
 correct: false
 
+% multichoice
 text: What number comes next in 12, 14, 16, ___?
 @answer
 text: 18
@@ -84,6 +89,7 @@ correct: false
 text: 20
 correct: false
 
+% multichoice
 text: What number comes next in 21, 31, 41, ___?
 @answer
 text: 51
@@ -98,6 +104,7 @@ correct: false
 text: 81
 correct: false
 
+% multichoice
 text: What number comes next in 22, 24, 26, ___?
 @answer
 text: 28
@@ -112,6 +119,7 @@ correct: false
 text: 30
 correct: false
 
+% multichoice
 text: What number comes next in 25, 45, 65, ___?
 @answer
 text: 85
@@ -126,6 +134,7 @@ correct: false
 text: 105
 correct: false
 
+% multichoice
 text: What number comes next in 3, 6, 9, ___?
 @answer
 text: 12
@@ -140,6 +149,7 @@ correct: false
 text: 21
 correct: false
 
+% multichoice
 text: What number comes next in 42, 44, 46, ___?
 @answer
 text: 48
@@ -154,6 +164,7 @@ correct: false
 text: 40
 correct: false
 
+% multichoice
 text: What number comes next in 4, 8, 12, ___?
 @answer
 text: 16
@@ -168,6 +179,7 @@ correct: false
 text: 28
 correct: false
 
+% multichoice
 text: What number comes next in 6, 12, 18, ___?
 @answer
 text: 24

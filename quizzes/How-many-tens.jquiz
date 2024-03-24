@@ -14,6 +14,7 @@ correct: false
 text: 8
 correct: false
 
+% multichoice
 text: How many tens are there in 32?
 @answer
 text: 3
@@ -28,6 +29,7 @@ correct: false
 text: 2
 correct: false
 
+% multichoice
 text: How many tens are there in 81?
 @answer
 text: 8
@@ -42,6 +44,7 @@ correct: false
 text: 5
 correct: false
 
+% multichoice
 text: How many tens are there in 109?
 @answer
 text: 0
@@ -56,6 +59,7 @@ correct: false
 text: 8
 correct: false
 
+% multichoice
 text: How many tens are there in 8?
 @answer
 text: 0
@@ -70,6 +74,7 @@ correct: false
 text: 8
 correct: false
 
+% multichoice
 text: How many tens are there in 4321?
 @answer
 text: 2
@@ -84,6 +89,7 @@ correct: false
 text: 4
 correct: false
 
+% multichoice
 text: How many tens are there in 54?
 @answer
 text: 5
@@ -98,6 +104,7 @@ correct: false
 text: 8
 correct: false
 
+% multichoice
 text: How many tens are there in 50?
 @answer
 text: 5
@@ -112,6 +119,7 @@ correct: false
 text: 8
 correct: false
 
+% multichoice
 text: How many tens are there in 101?
 @answer
 text: 0

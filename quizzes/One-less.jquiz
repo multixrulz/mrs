@@ -14,6 +14,7 @@ correct: false
 text: 4
 correct: false
 
+% multichoice
 text: What is one less than 10?
 @answer
 text: 9
@@ -28,6 +29,7 @@ correct: false
 text: 4
 correct: false
 
+% multichoice
 text: What is one less than 15?
 @answer
 text: 14
@@ -42,6 +44,7 @@ correct: false
 text: 13
 correct: false
 
+% multichoice
 text: What is one less than 19?
 @answer
 text: 18
@@ -56,6 +59,7 @@ correct: false
 text: 17
 correct: false
 
+% multichoice
 text: What is one less than 20?
 @answer
 text: 19
@@ -70,6 +74,7 @@ correct: false
 text: 14
 correct: false
 
+% multichoice
 text: What is one less than 17?
 @answer
 text: 16
@@ -84,6 +89,7 @@ correct: false
 text: 14
 correct: false
 
+% multichoice
 text: What is one less than 13?
 @answer
 text: 12
@@ -98,6 +104,7 @@ correct: false
 text: 14
 correct: false
 
+% multichoice
 text: What is one less than 103?
 @answer
 text: 102
@@ -112,6 +119,7 @@ correct: false
 text: 104
 correct: false
 
+% multichoice
 text: What is one less than 2113?
 @answer
 text: 2112
