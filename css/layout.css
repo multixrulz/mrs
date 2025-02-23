@@ -243,7 +243,7 @@ width: 65vw;
 position: fixed;
 top: 1em;
 right: 1em;
-width: 30vw;
+max-width: 50vw;
 }
 
 #activitylist input {
@@ -251,23 +251,38 @@ display: none;
 }
 
 #activitylist label {
-display: block;
-box-sizing: border-box;
-width: 100%;
+display: flex;
+flex-wrap: nowrap;
+justify-content: flex-start;
+align-items: center;
+height: 5ex;
 color: black;
 font-weight: bold;
 background-color: #efefef;
-margin: 0.2vmin 0 0.2vmin 0;
-border: solid #009BFC 0.4vmin;
+margin: 0.4vmin 0 0.4vmin 0;
+border: solid #AB0066 0.5vmin;
 border-radius: 0.4vmin;
-padding: 0.5em 0.5em;
+padding: 0 1ex;
 font-size: 190%;
 text-align: left;
 }
 
+#activitylist span {
+margin: 0;
+padding: 0;
+}
+
+#activitylist span.time {
+width: 6ex;
+}
+
+#activitylist label span.img {
+width: 5ex;
+height: 3ex;
+}
+
 #activitylist label img {
-height: 1.7em;
-vertical-align: middle;
+height: 90%;
 }
 
 #activitylist input:hover + label {
