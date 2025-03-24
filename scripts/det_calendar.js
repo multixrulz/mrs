@@ -116,31 +116,32 @@ function set_today_link() {
 }
 
 function go_to_today() {
-    //todays_url();
-    window.location.href = "/planner" + todays_url();
+    url = window.location.href = "/planner" + todays_url();
+    console.log(url)
+    window.location.href = url;
 }
 
 // Putting new terms at the top makes the todays_url() function do less
 // as we move through the calendar, rather than more.
 terms = [
-    new detTerm(2024, 4,
-        new Date("2024-10-14"), // First day
-        new Date("2024-10-14"), // First student day
-        new Date("2024-12-20"), // Last day for staff
-        new Date("2024-09-28")), // Start of previous holidays
-    new detTerm(2024, 3,
-        new Date("2024-07-22"),
-        new Date("2024-07-23"),
-        new Date("2024-09-27"),
-        new Date("2024-07-06")),
-    new detTerm(2024, 2,
-        new Date("2024-04-29"),
-        new Date("2024-04-30"),
-        new Date("2024-07-05"),
-        new Date("2024-04-13")),
-    new detTerm(2024, 1,
-        new Date("2024-01-30"),
-        new Date("2024-02-08"),
-        new Date("2024-04-12"),
-        new Date("2023-12-21")),
+    new detTerm(2025, 4,
+        new Date("2025-10-13"), // First day
+        new Date("2025-10-14"), // First student day
+        new Date("2025-12-19"), // Last day for staff
+        new Date("2025-09-27")), // Start of previous holidays
+    new detTerm(2025, 3,
+        new Date("2025-07-21"),
+        new Date("2025-07-22"),
+        new Date("2025-09-26"),
+        new Date("2025-07-05")),
+    new detTerm(2025, 2,
+        new Date("2025-04-28"),
+        new Date("2025-04-30"),
+        new Date("2025-07-04"),
+        new Date("2025-04-12")),
+    new detTerm(2025, 1,
+        new Date("2025-01-31"),
+        new Date("2025-02-13"),
+        new Date("2025-04-11"),
+        new Date("2024-12-21")),
     ];
