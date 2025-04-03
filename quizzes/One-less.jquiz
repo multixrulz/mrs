@@ -1,0 +1,138 @@
+% jquiz One less
+% multichoice
+text: What is one less than 1?
+@answer
+text: 0
+correct: true
+@answer
+text: 2
+correct: false
+@answer
+text: 3
+correct: false
+@answer
+text: 4
+correct: false
+
+% multichoice
+text: What is one less than 10?
+@answer
+text: 9
+correct: true
+@answer
+text: 8
+correct: false
+@answer
+text: 7
+correct: false
+@answer
+text: 4
+correct: false
+
+% multichoice
+text: What is one less than 15?
+@answer
+text: 14
+correct: true
+@answer
+text: 15
+correct: false
+@answer
+text: 12
+correct: false
+@answer
+text: 13
+correct: false
+
+% multichoice
+text: What is one less than 19?
+@answer
+text: 18
+correct: true
+@answer
+text: 6
+correct: false
+@answer
+text: 7
+correct: false
+@answer
+text: 17
+correct: false
+
+% multichoice
+text: What is one less than 20?
+@answer
+text: 19
+correct: true
+@answer
+text: 21
+correct: false
+@answer
+text: 18
+correct: false
+@answer
+text: 14
+correct: false
+
+% multichoice
+text: What is one less than 17?
+@answer
+text: 16
+correct: true
+@answer
+text: 15
+correct: false
+@answer
+text: 13
+correct: false
+@answer
+text: 14
+correct: false
+
+% multichoice
+text: What is one less than 13?
+@answer
+text: 12
+correct: true
+@answer
+text: 21
+correct: false
+@answer
+text: 23
+correct: false
+@answer
+text: 14
+correct: false
+
+% multichoice
+text: What is one less than 103?
+@answer
+text: 102
+correct: true
+@answer
+text: 201
+correct: false
+@answer
+text: 203
+correct: false
+@answer
+text: 104
+correct: false
+
+% multichoice
+text: What is one less than 2113?
+@answer
+text: 2112
+correct: true
+@answer
+text: 2116
+correct: false
+@answer
+text: 2117
+correct: false
+@answer
+text: 2118
+correct: false
+
+
+

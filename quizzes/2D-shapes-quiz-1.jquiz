@@ -1,0 +1,147 @@
+% jquiz 2D shapes
+
+% multichoice
+text: A triangle has 3 sides.
+@answer
+text:True
+correct: true
+@answer
+text: False
+correct: false
+
+% multichoice
+text: A triangle has 3 vertices or corners.
+@answer
+text:True
+correct: true
+@answer
+text: False
+correct: false
+
+% multichoice
+text: A square has 3 sides.
+@answer
+text: False
+correct: true
+@answer
+text: True
+correct: false
+
+% multichoice
+text: A square has 4 equal sides.
+@answer
+text:True
+correct: true
+@answer
+text: False
+correct: false
+
+% multichoice
+text: A square has 4 vertices or corners.
+@answer
+text:True
+correct: true
+@answer
+text: False
+correct: false
+
+% multichoice
+text: A rectangle has 4 equal sides.
+@answer
+text: False
+correct: true
+@answer
+text: True
+correct: false
+
+% multichoice
+text: A rectangle has 2 shorter sides and 2 longer sides.
+@answer
+text:True
+correct: true
+@answer
+text: False
+correct: false
+
+% multichoice
+text: A trapezium has 5 sides.
+@answer
+text:False
+correct: true
+@answer
+text: True
+correct: false
+
+% multichoice
+text: A trapezium has 4 sides.
+@answer
+text:True
+correct: true
+@answer
+text: False
+correct: false
+
+% multichoice
+text: A quadrilateral is a shape with 4 sides.
+@answer
+text: True
+correct: true
+@answer
+text: False
+correct: false
+
+% multichoice
+text: A pentagon has 5 sides and 5 corners.
+@answer
+text: True
+correct: true
+@answer
+text: False
+correct: false
+
+% multichoice
+text: A hexagon has 6 sides.
+@answer
+text: True
+correct: true
+@answer
+text: False
+correct: false
+
+% multichoice
+text: An octagon has 8 sides and 8 corners.
+@answer
+text: True
+correct: true
+@answer
+text: False
+correct: false
+
+% multichoice
+text: A circle has 1 side.
+@answer
+text: True
+correct: true
+@answer
+text: False
+correct: false
+
+% multichoice
+text: A circle is not always round.
+@answer
+text: False
+correct: true
+@answer
+text: True
+correct: false
+
+% multichoice
+text: A square has two equal sides.
+@answer
+text: False
+correct: true
+@answer
+text: True
+correct: false
+
+

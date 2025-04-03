@@ -1,0 +1,226 @@
+% jquiz Phonemes in words 1
+
+% multichoice
+text: How many phonemes are in 'fish'?
+@answer
+text:No idea
+correct: false
+@answer
+text:3
+correct: true
+@answer
+text:2
+correct:false
+@answer
+text: 1
+correct: false
+
+% multichoice
+text: How many phonemes are in 'hand'?
+@answer
+text:No idea
+correct: false
+@answer
+text:4
+correct: true
+@answer
+text:3
+correct:false
+@answer
+text: 2
+correct: false
+
+% multichoice
+text: How many phonemes are in 'cat'?
+@answer
+text:No idea
+correct: false
+@answer
+text:3
+correct: true
+@answer
+text:2
+correct:false
+@answer
+text: 1
+correct: false
+
+% multichoice
+text: How many phonemes are in 'chop'?
+@answer
+text:No idea
+correct: false
+@answer
+text:3
+correct: true
+@answer
+text:2
+correct:false
+@answer
+text: 1
+correct: false
+
+% multichoice
+text: How many phonemes are in 'ship'?
+@answer
+text:No idea
+correct: false
+@answer
+text:2
+correct: false
+@answer
+text:3
+correct:true
+@answer
+text: 4
+correct: false
+
+% multichoice
+text: How many phonemes are in 'dog'?
+@answer
+text:No idea
+correct: false
+@answer
+text:4
+correct: false
+@answer
+text:3
+correct:true
+@answer
+text: 2
+correct: false
+
+% multichoice
+text: How many phonemes are in 'spend'?
+@answer
+text:No idea
+correct: false
+@answer
+text:4
+correct: false
+@answer
+text:5
+correct:true
+@answer
+text: 3
+correct: false
+
+% multichoice
+text: How many phonemes are in 'lips'?
+@answer
+text:No idea
+correct: false
+@answer
+text:4
+correct: true
+@answer
+text:3
+correct:false
+@answer
+text: 2
+correct: false
+
+% multichoice
+text: How many phonemes are in 'quit'?
+@answer
+text:No idea
+correct: false
+@answer
+text:4
+correct: true
+@answer
+text:3
+correct:false
+@answer
+text: 2
+correct: false
+
+% multichoice
+text: How many phonemes are in 'neck'?
+@answer
+text:No idea
+correct: false
+@answer
+text:4
+correct: false
+@answer
+text:3
+correct:true
+@answer
+text: 2
+correct: false
+
+% multichoice
+text: How many phonemes are in 'pot'?
+@answer
+text:No idea
+correct: false
+@answer
+text:4
+correct: false
+@answer
+text:3
+correct:true
+@answer
+text: 2
+correct: false
+
+% multichoice
+text: How many phonemes are in 'is'?
+@answer
+text:No idea
+correct: false
+@answer
+text:4
+correct: false
+@answer
+text:3
+correct:false
+@answer
+text: 2
+correct: true
+
+% multichoice
+text: How many phonemes are in 'queen'?
+@answer
+text:No idea
+correct: false
+@answer
+text:4
+correct: true
+@answer
+text:3
+correct:false
+@answer
+text: 2
+correct: false
+
+% multichoice
+text: How many phonemes are in 'frog'?
+@answer
+text:No idea
+correct: false
+@answer
+text:4
+correct: true
+@answer
+text:3
+correct:false
+@answer
+text: 2
+correct: false
+
+% multichoice
+text: How many phonemes are in 'flip'?
+@answer
+text:No idea
+correct: false
+@answer
+text:4
+correct: true
+@answer
+text:3
+correct:false
+@answer
+text: 2
+correct: false

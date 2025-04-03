@@ -1,0 +1,370 @@
+@font-face {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Ubuntu'), local('Ubuntu-Regular'), url(/font/Ubuntu-Regular.ttf);
+}
+
+@font-face {
+  font-family: 'Ubuntu';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Ubuntu-Italic'), url(/font/Ubuntu-Italic.ttf);
+}
+
+@font-face {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Ubuntu-Bold'), url(/font/Ubuntu-Bold.ttf);
+}
+
+@font-face {
+  font-family: 'Ubuntu';
+  font-style: italic;
+  font-weight: 700;
+  src: local('Ubuntu-BoldItalic'), url(/font/Ubuntu-BoldItalic.ttf);
+}
+
+/* reset */
+html, body {
+margin: 0;
+border: 0;
+padding: 0;
+}
+
+body {
+background: #202020;
+font-family: "Ubuntu";
+font-size: 16px;
+}
+
+/* Layout */
+#width {
+min-width: 40em;
+margin: 0 auto 0 auto;
+padding: 0;
+}
+
+#head {
+height: 7em;
+background: #00a4ff; /* sky blue */
+color: #802961; /* purple */
+}
+#head p {
+position: absolute;
+font-size: 250%;
+font-weight: bold;
+padding: 0;
+margin: 0.5em 0 0 1em;
+text-shadow: 0.1em 0.1em 0.2em rgba(50,20,0,0.5);
+}
+#head img.stretch {
+position: absolute;
+top: 0;
+left: 0;
+right: 0;
+width: 100%;
+height: 100%;
+}
+#hd2 {
+position: relative;
+width: 100%;
+height: 7em;
+padding-left: 10em;
+}
+#topimg {
+position: absolute;
+top: 1em;
+left: 2em;
+background: none !important;
+height: 9em;
+}
+
+#menu {
+background: #20C59B; /* green */
+}
+#menu ul {
+list-style: none;
+padding: 0.5em 0 0.5em 10em;
+background-repeat: repeat-x;
+background-position: bottom;
+margin: 0;
+background-image: url('/img/site/menubg.png');
+background-color: #20C59B; /* green */
+}
+#menu li {
+display: inline;
+margin: 0;
+}
+#menu li a {
+text-decoration: none;
+padding: 0.5em 1em 0.5em 1em;
+margin: 0;
+color: #ffdf40; /* 6 */
+}
+#menu li a:hover {
+background-repeat: repeat-x;
+background-position: top;
+background-image: url('/img/site/menubghl.png');
+background-color: #00a4ff;
+color: #802961;
+}
+
+#content {
+background: #F3F3F3;
+padding: 0 2em 2em 2em;
+margin-top: 0;
+border-top: solid #00a4ff 0.1em;
+}
+
+#foot {
+border-top: solid 1px;
+padding: 1em 3em 3em 3em;
+background: #efefef;
+font-size: 80%;
+text-align: center;
+}
+#foot * {
+margin: 0.2em 0 0 0;
+}
+
+/* General formatting */
+
+#content table {
+margin: 1em 0 1em 0;
+border-width: 3px;
+border-style: solid;
+border-left: none;
+border-right: none;
+}
+
+#content table td {
+padding: 0.2em;
+}
+
+#content table td p {
+margin: 0;
+}
+
+tr, td {
+vertical-align: top;
+}
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+text-align: left;
+text-shadow: 0.05em 0.05em 0.2em #555;
+color: #802961;
+}
+h2 a, h3 a {
+text-decoration: none;
+}
+/* Lists */
+dt {
+font-weight: bold;
+}
+dd {
+margin: 0 0 1em 5em;
+}
+ol, ul
+{
+margin-bottom: 1em;
+}
+li {
+/*margin-left: 2.5em;*/
+}
+ul {
+list-style: circle;
+/*margin: 0 0 1em 1em;*/
+}
+ul ul {
+list-style: disc;
+margin: 0 0 0 0em;
+}
+ol {
+margin: 0 0 1em 1em;
+}
+
+/* Calendar layout */
+
+#content .calendar table {
+border: none;
+}
+#content .calendar td {
+text-align: center;
+vertical-align: middle;
+}
+.calendar a {
+display: block;
+font-weight: bold;
+box-sizing: border-box;
+width: 5em;
+height: 100%;
+background: #00a4ff;
+border: solid #006EAB 0.2em;
+border-radius: 0.2em;
+padding: 0.3em;
+color: white;
+text-align: center;
+text-decoration: none;
+}
+.calendar a:hover {
+background: #20C59B; /* green */
+}
+.calendar td {
+font-weight: bold;
+color: #6f6f6f;
+text-align: center;
+text-decoration: none;
+height: 2em;
+}
+.calendar p.pubhol {
+display: block;
+font-weight: bold;
+box-sizing: border-box;
+width: 5em;
+height: 100%;
+background: #D60300;
+border: solid #920200 0.2em;
+border-radius: 0.2em;
+padding: 0.3em;
+color: white;
+text-align: center;
+text-decoration: none;
+}
+
+/* Day plan - activity list */
+
+.activitypage {
+width: 65vw;
+}
+
+#activitylist {
+position: fixed;
+top: 1em;
+right: 1em;
+max-width: 50vw;
+}
+
+#activitylist input {
+display: none;
+}
+
+#activitylist label {
+display: flex;
+flex-wrap: nowrap;
+justify-content: flex-start;
+align-items: center;
+height: 5ex;
+color: black;
+font-weight: bold;
+background-color: #efefef;
+margin: 0.4vmin 0 0.4vmin 0;
+border: solid #AB0066 0.5vmin;
+border-radius: 0.4vmin;
+padding: 0 1ex;
+font-size: 190%;
+text-align: left;
+}
+
+#activitylist span {
+margin: 0;
+padding: 0;
+}
+
+#activitylist span.time {
+width: 6ex;
+}
+
+#activitylist label span.img {
+width: 5ex;
+height: 3ex;
+}
+
+#activitylist label img {
+height: 90%;
+}
+
+#activitylist input:hover + label {
+background-color: #20C59B;
+border-color: #2F8D75;
+}
+
+#activitylist input:checked + label {
+background-color: #afafaf;
+border-color: #4f4f4f;
+color: #4f4f4f;
+}
+
+
+/* Buttons */
+.bigbutton ul {
+list-style: none;
+text-align: center;
+}
+
+.bigbutton ul li {
+position: relative;
+display: inline-block;
+margin: 3vh;
+background: #eee;
+border: solid #999 0.5vh;
+border-radius: 2vh;
+padding: 5vh;
+width: 25vh;
+height: 25vh;
+box-shadow: 1vh 1vh 0.85vh rgba(0,0,0,0.1);
+vertical-align: top;
+}
+
+.bigbutton ul li:hover {
+background: #efffff;
+border: solid #6fcfdf 0.5vh;
+box-shadow: 1vh 1vh 1vh rgba(0,20,30,0.15);
+}
+
+.bigbutton img {
+height: 20vh;
+max-width: 20vh !important;
+}
+
+
+/* Other */
+p + p {
+margin-top: 1em;
+}
+blockquote {
+margin: 1em 3em 1em 3em;
+padding: 0 0 0 1em;
+border-left: solid 3px;
+}
+.centre {
+text-align: center !important;
+}
+.right {
+text-align: right !important;
+}
+/* For viewports narrower than the min-width */
+@media (max-width: 750px) {
+body {
+font-size: 11px;
+}
+#topimg {
+width: 30%;
+}
+#width {
+min-width: 100%;
+max-width: 100%;
+width: 100%;
+}
+
+@media (max-width: 500px) {
+body {
+font-size: 10px;
+}
+}
+
+/* Don't let stuff expand outside the width of the window - particularly relevant for narrow mobile devices */
+img, iframe {
+max-width: 100% !important;
+}

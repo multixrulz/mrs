@@ -1,0 +1,135 @@
+% jquiz Friends of 10
+% multichoice
+text:Friend of ten for 6
+@answer
+text:4
+correct: true
+@answer
+text:5
+correct: false
+@answer
+text:9
+correct: false
+@answer
+text:2
+correct: false
+
+% multichoice
+text:Friend of ten for 8
+@answer
+text:2
+correct: true
+@answer
+text:7
+correct: false
+@answer
+text:3
+correct: false
+@answer
+text:4
+correct: false
+
+% multichoice
+text:Friend of ten for 3
+@answer
+text:7
+correct: true
+@answer
+text:6
+correct: false
+@answer
+text:1
+correct: false
+@answer
+text:9
+correct: false
+
+% multichoice
+text:Friend of ten for 5
+@answer
+text:5
+correct: true
+@answer
+text:1
+correct: false
+@answer
+text:7
+correct: false
+@answer
+text:3
+correct: false
+
+% multichoice
+text:Friend of ten for 9
+@answer
+text:1
+correct: true
+@answer
+text:2
+correct: false
+@answer
+text:3
+correct: false
+@answer
+text:4
+correct: false
+
+% multichoice
+text:Friend of ten for 4
+@answer
+text:6
+correct: true
+@answer
+text:9
+correct: false
+@answer
+text:2
+correct: false
+@answer
+text:8
+correct: false
+
+% multichoice
+text:Friend of ten for 2
+@answer
+text:8
+correct: true
+@answer
+text:1
+correct: false
+@answer
+text:3
+correct: false
+@answer
+text:6
+correct: false
+
+% multichoice
+text:Friend of ten for 7
+@answer
+text:3
+correct: true
+@answer
+text:5
+correct: false
+@answer
+text:2
+correct: false
+@answer
+text:7
+correct: false
+
+% multichoice
+text:Friend of ten for 1
+@answer
+text:9
+correct: true
+@answer
+text:8
+correct: false
+@answer
+text:7
+correct: false
+@answer
+text:6
+correct: false

@@ -1,0 +1,165 @@
+% jquiz Friends of 10
+% multichoice
+text:Choose the Friends of Ten.
+@answer
+text:2+8
+correct: true
+@answer
+text:1+8
+correct: false
+@answer
+text:2+3
+correct: false
+@answer
+text:2+2
+correct: false
+
+% multichoice
+text:Choose the Friends of Ten.
+@answer
+text:1+9
+correct: true
+@answer
+text:2+4
+correct: false
+@answer
+text:3+5
+correct: false
+@answer
+text:7+2
+correct: false
+
+% multichoice
+text:Choose the Friends of Ten.
+@answer
+text:3+7
+correct: true
+@answer
+text:1+7
+correct: false
+@answer
+text:2+6
+correct: false
+@answer
+text:4+4
+correct: false
+
+% multichoice
+text:Choose the Friends of Ten.
+@answer
+text:4+6
+correct: true
+@answer
+text:3+2
+correct: false
+@answer
+text:4+9
+correct: false
+@answer
+text:9+2
+correct: false
+
+% multichoice
+text:Choose the Friends of Ten.
+@answer
+text:8+2
+correct: true
+@answer
+text:0+3
+correct: false
+@answer
+text:9+8
+correct: false
+@answer
+text:4+9
+correct: false
+
+% multichoice
+text:Choose the Friends of Ten.
+@answer
+text:5+5
+correct: true
+@answer
+text:3+9
+correct: false
+@answer
+text:7+1
+correct: false
+@answer
+text:6+3
+correct: false
+
+% multichoice
+text:Choose the Friends of Ten.
+@answer
+text:9+1
+correct: true
+@answer
+text:2+10
+correct: false
+@answer
+text:2+1
+correct: false
+@answer
+text:7+7
+correct: false
+
+% multichoice
+text:Choose the Friends of Ten.
+@answer
+text:6+4
+correct: true
+@answer
+text:1+1
+correct: false
+@answer
+text:5+8
+correct: false
+@answer
+text:8+5
+correct: false
+
+% multichoice
+text:Choose the Friends of Ten.
+@answer
+text:7+3
+correct: true
+@answer
+text:4+1
+correct: false
+@answer
+text:7+1
+correct: false
+@answer
+text:9+4
+correct: false
+
+% multichoice
+text:Choose the Friends of Ten.
+@answer
+text:2+8
+correct: true
+@answer
+text:8+8
+correct: false
+@answer
+text:9+9
+correct: false
+@answer
+text:1+2
+correct: false
+
+% multichoice
+text:Choose the Friends of Ten.
+@answer
+text:3+7
+correct: true
+@answer
+text:8+1
+correct: false
+@answer
+text:7+2
+correct: false
+@answer
+text:7+7
+correct: false

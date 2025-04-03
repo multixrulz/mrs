@@ -1,0 +1,137 @@
+% jquiz Friends of 10
+% multichoice
+text: Choose the friends of ten.
+@answer
+text: 1
+correct: true
+@answer
+text: 9
+correct: true
+@answer
+text: 4
+correct: false
+@answer
+text: 7
+correct: false
+
+% multichoice
+text: Choose the friends of ten.
+@answer
+text:2
+correct: true
+@answer
+text:8
+correct: true
+@answer
+text:5
+correct: false
+@answer
+text:1
+correct: false
+
+% multichoice
+text: Choose the friends of ten.
+@answer
+text:3
+correct: true
+@answer
+text:7
+correct: true
+@answer
+text:4
+correct: false
+@answer
+text:5
+correct: false
+
+% multichoice
+text: Choose the friends of ten.
+@answer
+text:4
+correct: true
+@answer
+text:6
+correct: true
+@answer
+text:7
+correct: false
+@answer
+text:9
+correct: false
+
+% multichoice
+text: Choose the friends of ten.
+@answer
+text:5
+correct: true
+@answer
+text:5
+correct: true
+@answer
+text:6
+correct: false
+@answer
+text:7
+correct: false
+
+% multichoice
+text: Choose the friends of ten.
+@answer
+text:6
+correct: true
+@answer
+text:4
+correct: true
+@answer
+text:1
+correct: false
+@answer
+text:3
+correct: false
+
+% multichoice
+text: Choose the friends of ten.
+@answer
+text:7
+correct: true
+@answer
+text:3
+correct: true
+@answer
+text:8
+correct: false
+@answer
+text:6
+correct: false
+
+% multichoice
+text: Choose the friends of ten.
+@answer
+text:8
+correct: true
+@answer
+text:2
+correct: true
+@answer
+text:8
+correct: false
+@answer
+text:6
+correct: false
+
+% multichoice
+text: Choose the friends of ten.
+@answer
+text:9
+correct: true
+@answer
+text:1
+correct: true
+@answer
+text:8
+correct: false
+@answer
+text:6
+correct: false
+
+

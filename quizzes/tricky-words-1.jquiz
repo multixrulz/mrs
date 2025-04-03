@@ -1,0 +1,111 @@
+% jquiz Tricky words 1
+
+% multichoice
+text: Which one is correct?
+@answer
+text:said
+correct: true
+@answer
+text: sed
+correct: false
+
+% multichoice
+text: Which one is correct?
+@answer
+text:her
+correct: true
+@answer
+text: herr
+correct: false
+
+% multichoice
+text: Which one is correct?
+@answer
+text:he
+correct: true
+@answer
+text: hee
+correct: false
+
+% multichoice
+text: Which one is correct?
+@answer
+text:she
+correct: true
+@answer
+text: shee
+correct: false
+
+% multichoice
+text: Which one is correct?
+@answer
+text:it
+correct: true
+@answer
+text: iit
+correct: false
+
+% multichoice
+text: Which one is correct?
+@answer
+text:is
+correct: true
+@answer
+text: si
+correct: false
+
+% multichoice
+text: Which one is correct?
+@answer
+text:in
+correct: true
+@answer
+text: ni
+correct: false
+
+% multichoice
+text: Which one is correct?
+@answer
+text:on
+correct: true
+@answer
+text: oon
+correct: false
+
+% multichoice
+text: Which one is correct?
+@answer
+text:mum
+correct: true
+@answer
+text: mem
+correct: false
+
+% multichoice
+text: Which one is correct?
+@answer
+text:cat
+correct: true
+@answer
+text: cit
+correct: false
+
+% multichoice
+text: Which one is correct?
+@answer
+text:dog
+correct: true
+@answer
+text: doog
+correct: false
+
+% multichoice
+text: Which one is correct?
+@answer
+text:bat
+correct: true
+@answer
+text: dat
+correct: false
+
+
