@@ -101,8 +101,8 @@ function todays_url(){
         if (terms[t].holidaycontains(today)) {
             goto_day = terms[t].firststudentday;
             url = "/" +
-                terms[t].year + "/" +
-                terms[t].term + "/" +
+                terms[t].year + "/T" +
+                terms[t].term + "/W" +
                 terms[t].week(goto_day) + "/" +
                 days[terms[t].day(goto_day)] + ".html";
             break; // Found the right term, don't check others
