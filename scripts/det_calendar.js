@@ -86,11 +86,13 @@ function todays_url(){
         today.setDate(today.getDate() + 2);
     if (day_of_week == 0) // Sunday
         today.setDate(today.getDate() + 1);
+    console.log("Today after getting out of the weekend:", today);
     
     // See if we're in a term, and create the URL
     for (t in terms) {
         // Is this day in an actual term?
         if (terms[t].contains(today)) {
+            console.log("In term", t);
             url = "/T" + terms[t].term +
                 "/W" + terms[t].week(today) +
                 "/" + days[terms[t].day(today)] +
@@ -99,12 +101,11 @@ function todays_url(){
         }
         // Are we in the holidays? Go to day 1 of the term
         if (terms[t].holidaycontains(today)) {
+            console.log("In a holiday before term", t);
             goto_day = terms[t].firststudentday;
-            url = "/" +
-                terms[t].year + "/T" +
-                terms[t].term + "/W" +
-                terms[t].week(goto_day) + "/" +
-                days[terms[t].day(goto_day)] + ".html";
+            url = "/T" + terms[t].term +
+                "/W" + terms[t].week(goto_day) +
+                "/" + days[terms[t].day(goto_day)] + ".html";
             break; // Found the right term, don't check others
         }
     }
@@ -124,24 +125,24 @@ function go_to_today() {
 // Putting new terms at the top makes the todays_url() function do less
 // as we move through the calendar, rather than more.
 terms = [
-    new detTerm(2025, 4,
-        new Date("2025-10-13"), // First day
-        new Date("2025-10-14"), // First student day
-        new Date("2025-12-19"), // Last day for staff
-        new Date("2025-09-27")), // Start of previous holidays
-    new detTerm(2025, 3,
-        new Date("2025-07-21"),
-        new Date("2025-07-22"),
-        new Date("2025-09-26"),
-        new Date("2025-07-05")),
-    new detTerm(2025, 2,
-        new Date("2025-04-28"),
-        new Date("2025-04-30"),
-        new Date("2025-07-04"),
-        new Date("2025-04-12")),
-    new detTerm(2025, 1,
-        new Date("2025-01-31"),
-        new Date("2025-02-13"),
-        new Date("2025-04-11"),
-        new Date("2024-12-21")),
+    new detTerm(2026, 4,
+        new Date("2026-10-12"), // First day
+        new Date("2026-10-13"), // First student day
+        new Date("2026-12-17"), // Last day for staff
+        new Date("2026-09-27")), // Start of previous holidays
+    new detTerm(2026, 3,
+        new Date("2026-07-20"),
+        new Date("2026-07-21"),
+        new Date("2026-09-26"),
+        new Date("2026-07-04")),
+    new detTerm(2026, 2,
+        new Date("2026-04-20"),
+        new Date("2026-04-22"),
+        new Date("2026-07-03"),
+        new Date("2026-04-03")),
+    new detTerm(2026, 1,
+        new Date("2026-01-27"),
+        new Date("2026-02-09"),
+        new Date("2026-04-02"),
+        new Date("2025-12-19")),
     ];
